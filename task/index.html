@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">YAY! It’s BOGO</div>
+        
+        <!-- 1 Unit Option -->
+        <div class="option" onclick="selectOption(this, 10)">
+            <input type="radio" name="units" /> 1 Unit <span class="discount">10% Off</span>
+            <div class="price">$10.00 USD <strike>$24.00 USD</strike></div>
+            <div class="options-panel">
+                <label>Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        
+        <!-- 2 Units Option -->
+        <div class="option" onclick="selectOption(this, 18)">
+            <input type="radio" name="units" /> 2 Units <span class="discount">20% Off</span>
+            <div class="price">$18.00 USD <strike>$24.00 USD</strike></div>
+            <div class="options-panel">
+                <label>#1 Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>#1 Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+                <br>
+                <label>#2 Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>#2 Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        
+        <!-- 3 Units Option -->
+        <div class="option" onclick="selectOption(this, 24)">
+            <input type="radio" name="units" /> 3 Units <span class="discount">30% Off</span>
+            <div class="price">$24.00 USD <strike>$24.00 USD</strike></div>
+            <div class="options-panel">
+                <label>#1 Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>#1 Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+                <br>
+                <label>#2 Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>#2 Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+                <br>
+                <label>#3 Size: 
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </label>
+                <label>#3 Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        
+        <div class="btn">+ Add to Cart</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
